@@ -1,3 +1,4 @@
+import networkx as nx
 import sqlite3
 from datetime import datetime
 import streamlit as st
@@ -13,16 +14,14 @@ from google import genai
 
 def log_query(question, top_score, num_results, retrieved_pages, answer):
     conn = sqlite3.connect('query_logs.db')
+    conn.execute('''CREATE TABLE IF NOT EXISTS query_logs 
+                   (id INTEGER PRIMARY KEY AUTOINCREMENT, 
+                    timestamp TEXT, question TEXT, 
+                    top_score REAL, num_results INTEGER, 
+                    retrieved_pages TEXT, answer TEXT)''')
     conn.execute(
         "INSERT INTO query_logs (timestamp, question, top_score, num_results, retrieved_pages, answer) VALUES (?, ?, ?, ?, ?, ?)",
-        (
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            question,
-            top_score,
-            num_results,
-            str(retrieved_pages),
-            answer
-        )
+        (datetime.now().strftime("%Y-%m-%d %H:%M:%S"), question, top_score, num_results, str(retrieved_pages), answer)
     )
     conn.commit()
     conn.close()
@@ -141,6 +140,64 @@ def load_pipeline():
 with st.spinner("Loading pipeline (this takes a minute on first run)..."):
     collection, embedder, reranker = load_pipeline()
 
+
+def load_kg(path="mmkg.graphml"):
+    """Load the knowledge graph from GraphML file."""
+    G = nx.read_graphml(path)
+    return G
+
+G = load_kg()
+print(f"KG loaded: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
+
+
+# ── KG RETREIVAL FUNCTION ──
+def retrieve_from_kg(question, G, top_k=5):
+    """Search KG nodes by matching question keywords against entity attributes."""
+    question_lower = question.lower()
+    keywords = [w for w in question_lower.split() if len(w) > 3]
+    
+    scored_nodes = []
+    
+    for node_id, attrs in G.nodes(data=True):
+        # Build a searchable string from node attributes
+        searchable = ' '.join([
+            str(attrs.get('entity_name', '')),
+            str(attrs.get('entity_type', '')),
+            str(attrs.get('text', '')),
+            str(attrs.get('description', '')),
+            str(attrs.get('part_number', '')),
+            str(attrs.get('alias', '')),
+            str(attrs.get('function', '')),
+        ]).lower()
+        
+        # Score by keyword matches
+        score = sum(1 for kw in keywords if kw in searchable)
+        
+        if score > 0:
+            # Also get connected nodes for context
+            neighbors = list(G.neighbors(node_id))
+            neighbor_info = []
+            for n in neighbors[:3]:
+                n_attrs = G.nodes[n]
+                rel = G.edges[node_id, n].get('relation', '')
+                neighbor_info.append(f"{rel} → {n_attrs.get('entity_name', n)}")
+            
+            context = f"[KG | {attrs.get('entity_type', 'Unknown')}] {attrs.get('entity_name', '')}. "
+            if attrs.get('text'):
+                context += attrs.get('text') + ". "
+            if attrs.get('part_number'):
+                context += f"Part number: {attrs.get('part_number')}. "
+            if neighbor_info:
+                context += "Related: " + ", ".join(neighbor_info)
+            
+            scored_nodes.append((score, context))
+    
+    # Sort by score and return top_k
+    scored_nodes.sort(reverse=True)
+    return [context for _, context in scored_nodes[:top_k]]
+
+
+
 # ── RAG FUNCTION ──
 def expand_query(question):
     prompt = f"""Generate 3 different ways to ask the following question about a technical assembly manual.
@@ -176,12 +233,18 @@ def answer_question(question, n_results=5):
     else:
         top_results = all_results[:5]
 
+    # Vector context
     context_pieces = []
     for doc, meta, dist in top_results:
         if 'Technical diagram' in doc:
             continue
         source = f"[Page {meta['page']} | {meta['type']}]"
         context_pieces.append(f"{source}\n{doc}")
+
+    # KG context
+    kg_results = retrieve_from_kg(question, G, top_k=5)
+    for kg_context in kg_results:
+        context_pieces.append(kg_context)
 
     context = "\n\n".join(context_pieces)
 
@@ -220,8 +283,21 @@ if st.button("Submit") and question:
 
 # ── QUERY LOG VIEWER ──
 if st.checkbox("Show query performance log"):
-    conn = sqlite3.connect('query_logs.db')
-    import pandas as pd
-    df = pd.read_sql_query("SELECT timestamp, question, top_score, num_results, retrieved_pages FROM query_logs ORDER BY timestamp DESC", conn)
-    conn.close()
-    st.dataframe(df)
+    try:
+        conn = sqlite3.connect('query_logs.db')
+        conn.execute('''CREATE TABLE IF NOT EXISTS query_logs 
+                       (id INTEGER PRIMARY KEY AUTOINCREMENT, 
+                        timestamp TEXT, question TEXT, 
+                        top_score REAL, num_results INTEGER, 
+                        retrieved_pages TEXT, answer TEXT)''')
+        conn.commit()
+        import pandas as pd
+        df = pd.read_sql_query("SELECT timestamp, question, top_score, num_results, retrieved_pages FROM query_logs ORDER BY timestamp DESC", conn)
+        conn.close()
+        if len(df) == 0:
+            st.info("No queries logged yet.")
+        else:
+            st.dataframe(df)
+    except Exception as e:
+        st.error(f"Log error: {e}")
+
