@@ -1,0 +1,4374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d50" for="edge" attr.name="confidence" attr.type="string"/>
+<key id="d49" for="edge" attr.name="modality" attr.type="string"/>
+<key id="d48" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d47" for="node" attr.name="quantity" attr.type="string"/>
+<key id="d46" for="node" attr.name="manufacturer" attr.type="string"/>
+<key id="d45" for="node" attr.name="date" attr.type="string"/>
+<key id="d44" for="node" attr.name="series" attr.type="string"/>
+<key id="d43" for="node" attr.name="callout_number" attr.type="string"/>
+<key id="d42" for="node" attr.name="id" attr.type="string"/>
+<key id="d41" for="node" attr.name="callout" attr.type="string"/>
+<key id="d40" for="node" attr.name="feature_block_label" attr.type="string"/>
+<key id="d39" for="node" attr.name="label" attr.type="string"/>
+<key id="d38" for="node" attr.name="features" attr.type="string"/>
+<key id="d37" for="node" attr.name="position" attr.type="string"/>
+<key id="d36" for="node" attr.name="text_visible" attr.type="string"/>
+<key id="d35" for="node" attr.name="function" attr.type="string"/>
+<key id="d34" for="node" attr.name="material" attr.type="string"/>
+<key id="d33" for="node" attr.name="color" attr.type="string"/>
+<key id="d32" for="node" attr.name="markings" attr.type="string"/>
+<key id="d31" for="node" attr.name="quantity" attr.type="long"/>
+<key id="d30" for="node" attr.name="type" attr.type="string"/>
+<key id="d29" for="node" attr.name="aligned_to" attr.type="string"/>
+<key id="d28" for="node" attr.name="category" attr.type="string"/>
+<key id="d27" for="node" attr.name="caption" attr.type="string"/>
+<key id="d26" for="node" attr.name="num_blocks" attr.type="long"/>
+<key id="d25" for="node" attr.name="image_path" attr.type="string"/>
+<key id="d24" for="node" attr.name="feature_block_idx" attr.type="long"/>
+<key id="d23" for="node" attr.name="source_image" attr.type="string"/>
+<key id="d22" for="node" attr.name="description" attr.type="string"/>
+<key id="d21" for="node" attr.name="model" attr.type="string"/>
+<key id="d20" for="node" attr.name="version" attr.type="string"/>
+<key id="d19" for="node" attr.name="proc_id" attr.type="string"/>
+<key id="d18" for="node" attr.name="issuer" attr.type="string"/>
+<key id="d17" for="node" attr.name="standard_id" attr.type="string"/>
+<key id="d16" for="node" attr.name="unit" attr.type="string"/>
+<key id="d15" for="node" attr.name="value" attr.type="string"/>
+<key id="d14" for="node" attr.name="spec_id" attr.type="string"/>
+<key id="d13" for="node" attr.name="severity" attr.type="string"/>
+<key id="d12" for="node" attr.name="warning_id" attr.type="string"/>
+<key id="d11" for="node" attr.name="part_number" attr.type="string"/>
+<key id="d10" for="node" attr.name="part_id" attr.type="string"/>
+<key id="d9" for="node" attr.name="alias" attr.type="string"/>
+<key id="d8" for="node" attr.name="tool_id" attr.type="string"/>
+<key id="d7" for="node" attr.name="text" attr.type="string"/>
+<key id="d6" for="node" attr.name="step_number" attr.type="long"/>
+<key id="d5" for="node" attr.name="modality" attr.type="string"/>
+<key id="d4" for="node" attr.name="page" attr.type="string"/>
+<key id="d3" for="node" attr.name="title" attr.type="string"/>
+<key id="d2" for="node" attr.name="doc_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_name" attr.type="string"/>
+<graph edgedefault="directed"><node id="doc_ez_clip_5400">
+  <data key="d0">Danfoss EZ Clip to 5400 Series Hose assembly instructions</data>
+  <data key="d1">Document</data>
+  <data key="d2">AN463656012492en-000101</data>
+  <data key="d3">Danfoss EZ Clip to 5400 Series Hose assembly instructions</data>
+  <data key="d4">1-2</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_1">
+  <data key="d0">Cut the hose</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">1</data>
+  <data key="d7">Cut the hose to proper length with an appropriate cutting tool.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_2">
+  <data key="d0">Slip on two clips</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">2</data>
+  <data key="d7">Install two proper-sized clips onto the cut end of the hose.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_3">
+  <data key="d0">Oil the nipple</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">3</data>
+  <data key="d7">Lubricate the nipple with a generous amount of the refrigeration or A/C system’s compressor lubricating oil.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_4">
+  <data key="d0">Insert the nipple</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">4</data>
+  <data key="d7">Insert the nipple into the hose.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_5">
+  <data key="d0">Snap on the cage</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">5</data>
+  <data key="d7">Snap the cage into the groove on the nipple.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_6">
+  <data key="d0">Slide the clips</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">6</data>
+  <data key="d7">Slide the clips over the cage arms and into the channels on each arm.</data>
+  <data key="d5">text</data>
+</node>
+<node id="step_7">
+  <data key="d0">Close the clips</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d6">7</data>
+  <data key="d7">Use the FT1357 pliers to close the clips.</data>
+  <data key="d5">text</data>
+</node>
+<node id="tool_ft1357">
+  <data key="d0">FT1357 Pliers</data>
+  <data key="d1">Tool</data>
+  <data key="d8">ft1357</data>
+  <data key="d9">pliers</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_cage">
+  <data key="d0">Cage</data>
+  <data key="d1">Part</data>
+  <data key="d10">cage_ff12139</data>
+  <data key="d11">FF12139</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_hose_gh001">
+  <data key="d0">Multi-refrigerant hose</data>
+  <data key="d1">Part</data>
+  <data key="d10">hose_gh001</data>
+  <data key="d11">GH001</data>
+  <data key="d5">text</data>
+</node>
+<node id="warning_clip_damage">
+  <data key="d0">Clip damage warning</data>
+  <data key="d1">Warning</data>
+  <data key="d12">warn_01</data>
+  <data key="d13">NOTE</data>
+  <data key="d7">Failure to slide the clips over the hose at this time will require the clips to be stretched over the hose or fitting later. This may permanently damage the clip.</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_temp_min">
+  <data key="d0">Minimum operating temperature</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_temp_min</data>
+  <data key="d15">-40</data>
+  <data key="d16">Celsius</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_temp_max">
+  <data key="d0">Maximum operating temperature</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_temp_max</data>
+  <data key="d15">121</data>
+  <data key="d16">Celsius</data>
+  <data key="d5">text</data>
+</node>
+<node id="std_sae_j3062">
+  <data key="d0">SAE J3062</data>
+  <data key="d1">Standard</data>
+  <data key="d17">sae_j3062</data>
+  <data key="d18">SAE</data>
+  <data key="d5">text</data>
+</node>
+<node id="std_sae_j2064">
+  <data key="d0">SAE J2064</data>
+  <data key="d1">Standard</data>
+  <data key="d17">sae_j2064</data>
+  <data key="d18">SAE</data>
+  <data key="d5">text</data>
+</node>
+<node id="doc_ez_clip_manual">
+  <data key="d0">Danfoss EZ Clip to 5400 Series Hose assembly instructions</data>
+  <data key="d1">Document</data>
+  <data key="d2">AN463656012492en-000101</data>
+  <data key="d3">Danfoss EZ Clip to 5400 Series Hose assembly instructions</data>
+  <data key="d4">3-4</data>
+  <data key="d5">text</data>
+</node>
+<node id="proc_assembly">
+  <data key="d0">EZ Clip to 5400 Series Hose assembly</data>
+  <data key="d1">Procedure</data>
+  <data key="d19">proc_ez_clip_assembly</data>
+  <data key="d20">AN463656012492en-000101</data>
+  <data key="d5">text</data>
+</node>
+<node id="warning_lubrication">
+  <data key="d0">Lubrication Requirement</data>
+  <data key="d1">Warning</data>
+  <data key="d13">NOTE</data>
+  <data key="d7">Generous lubrication is required for all gaskets and O-Rings. Use refrigeration oil only when used in refrigerant system.</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_poppet_valve">
+  <data key="d0">Poppet valve assembly</data>
+  <data key="d1">Part</data>
+  <data key="d10">part_poppet_valve</data>
+  <data key="d11">5400-17-XS</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_gasket_seal">
+  <data key="d0">Gasket seal</data>
+  <data key="d1">Part</data>
+  <data key="d10">part_gasket_seal</data>
+  <data key="d11">22008-X</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_lock_washer">
+  <data key="d0">Lock washer</data>
+  <data key="d1">Part</data>
+  <data key="d10">part_lock_washer</data>
+  <data key="d11">5400-54-XS</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_jam_nut">
+  <data key="d0">Jam nut</data>
+  <data key="d1">Part</data>
+  <data key="d10">part_jam_nut</data>
+  <data key="d11">5400-52-XS</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_piston_or">
+  <data key="d0">Piston O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d10">part_piston_or</data>
+  <data key="d11">FF91178-Z</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_torque_dash4">
+  <data key="d0">Torque Dash 4 Non-braze Steel/Brass</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_torque_dash4</data>
+  <data key="d15">12-15</data>
+  <data key="d16">ft. lbs.</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_torque_dash8">
+  <data key="d0">Torque Dash 8 Non-braze Steel/Brass</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_torque_dash8</data>
+  <data key="d15">35-45</data>
+  <data key="d16">ft. lbs.</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_torque_dash12">
+  <data key="d0">Torque Dash 12 Non-braze Steel/Brass</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_torque_dash12</data>
+  <data key="d15">45-55</data>
+  <data key="d16">ft. lbs.</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_torque_dash16">
+  <data key="d0">Torque Dash 16 Non-braze Steel/Brass</data>
+  <data key="d1">Specification</data>
+  <data key="d14">spec_torque_dash16</data>
+  <data key="d15">55-65</data>
+  <data key="d16">ft. lbs.</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s2_4">
+  <data key="d0">Coupling 5400-S2-4</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400-S2-4</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s5_4">
+  <data key="d0">Coupling 5400-S5-4</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400-S5-4</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s2_8">
+  <data key="d0">Coupling 5400-S2-8</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S2-8</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s5_8">
+  <data key="d0">Coupling 5400-S5-8</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S5-8</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s2_12">
+  <data key="d0">Coupling 5400-S2-12</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S2-12</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s5_12">
+  <data key="d0">Coupling 5400-S5-12</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S5-12</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s2_16">
+  <data key="d0">Coupling 5400-S2-16</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S2-16</data>
+  <data key="d5">text</data>
+</node>
+<node id="part_5400_s5_16">
+  <data key="d0">Coupling 5400-S5-16</data>
+  <data key="d1">Part</data>
+  <data key="d11">5400 S5-16</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_coupling_size_1_4">
+  <data key="d0">Coupling Size</data>
+  <data key="d1">Specification</data>
+  <data key="d15">1/4</data>
+  <data key="d16">inch</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_coupling_size_1_2">
+  <data key="d0">Coupling Size</data>
+  <data key="d1">Specification</data>
+  <data key="d15">1/2</data>
+  <data key="d16">inch</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_coupling_size_3_4">
+  <data key="d0">Coupling Size</data>
+  <data key="d1">Specification</data>
+  <data key="d15">3/4</data>
+  <data key="d16">inch</data>
+  <data key="d5">text</data>
+</node>
+<node id="spec_coupling_size_1">
+  <data key="d0">Coupling Size</data>
+  <data key="d1">Specification</data>
+  <data key="d15">1</data>
+  <data key="d16">inch</data>
+  <data key="d5">text</data>
+</node>
+<node id="system_5400_series">
+  <data key="d0">5400 Series Adapters</data>
+  <data key="d1">System</data>
+  <data key="d21">5400 Series</data>
+  <data key="d5">text</data>
+</node>
+<node id="warning_adapter_reference">
+  <data key="d0">Reference Note</data>
+  <data key="d1">Warning</data>
+  <data key="d13">NOTE</data>
+  <data key="d7">See Adapter SAE 37° (JIC) table for corresponding O-ring and adapter material</data>
+  <data key="d5">text</data>
+</node>
+<node id="standard_sae_jic">
+  <data key="d0">SAE 37° (JIC)</data>
+  <data key="d1">Standard</data>
+  <data key="d18">SAE</data>
+  <data key="d5">text</data>
+</node>
+<node id="image_1__ear_clamp">
+  <data key="d0">Ear Clamp</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Single ear hose clamp</data>
+  <data key="d23">image_1</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_1__clamp_ear">
+  <data key="d0">Clamp Ear</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Deformable section for tightening</data>
+  <data key="d23">image_1</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_1__clamp_band">
+  <data key="d0">Clamp Band</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Circular metal band</data>
+  <data key="d23">image_1</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_1__global">
+  <data key="d0">Image: image_1</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_1</data>
+  <data key="d25">/content/working/images/image_1.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a single-ear Oetiker-style stepless ear clamp, which is a mechanical fastener used for securing hoses or tubing. The component features a crimpable ear mechanism designed to provide a uniform, 360-degree seal when compressed. There are no visible text labels, part numbers, or annotations in this view.</data>
+</node>
+<node id="image_10__ear_clamp">
+  <data key="d0">Ear Clamp</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Single ear hose clamp</data>
+  <data key="d23">image_10</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_10__clamp_type">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">ComponentType</data>
+  <data key="d5">fused</data>
+  <data key="d28">Fastener</data>
+  <data key="d23">image_10</data>
+  <data key="d24">-1</data>
+  <data key="d29">step_2</data>
+</node>
+<node id="image_10__global">
+  <data key="d0">Image: image_10</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_10</data>
+  <data key="d25">/content/working/images/image_10.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a single ear, stepless stainless steel hose clamp, commonly used for securing hoses in automotive or industrial fluid systems. The clamp features a mechanical crimp mechanism designed to be compressed with specialized pincers to create a permanent, tamper-resistant seal. There are no visible text labels, part numbers, or annotations in this view.</data>
+</node>
+<node id="image_11__hose_segment">
+  <data key="d0">Aeroquip Hose</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">GH134-12</data>
+  <data key="d22">DN19 hose</data>
+  <data key="d23">image_11</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_11__hose_fitting">
+  <data key="d0">Hose Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d30">Push-lock style</data>
+  <data key="d23">image_11</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_11__hose_clamps">
+  <data key="d0">Hose Clamps</data>
+  <data key="d1">Component</data>
+  <data key="d5">fused</data>
+  <data key="d31">2</data>
+  <data key="d23">image_11</data>
+  <data key="d24">-1</data>
+  <data key="d29">step_2</data>
+</node>
+<node id="image_11__clamp_tool">
+  <data key="d0">Clamp Installation Tool</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d32">12 248</data>
+  <data key="d23">image_11</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_11__global">
+  <data key="d0">Image: image_11</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_11</data>
+  <data key="d25">/content/working/images/image_11.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays components for a hose assembly, including a segment of Aeroquip GH134-12 hose, a barbed fitting with a threaded swivel nut, and two metal hose clamps. A separate metal retaining clip is also shown, which is designed to secure the fitting connection. The components are arranged to illustrate the necessary parts for assembling a hydraulic or fluid transfer line.</data>
+</node>
+<node id="image_12__ear_clamp_pliers">
+  <data key="d0">Ear Clamp Pliers</data>
+  <data key="d1">Tool</data>
+  <data key="d5">fused</data>
+  <data key="d33">green</data>
+  <data key="d34">metal and plastic</data>
+  <data key="d23">image_12</data>
+  <data key="d24">-1</data>
+  <data key="d29">tool_ft1357</data>
+</node>
+<node id="image_12__handle_grip">
+  <data key="d0">Handle Grip</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d33">green</data>
+  <data key="d34">plastic</data>
+  <data key="d23">image_12</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_12__locking_latch">
+  <data key="d0">Locking Latch</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d35">locking</data>
+  <data key="d23">image_12</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_12__tension_spring">
+  <data key="d0">Tension Spring</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d35">return mechanism</data>
+  <data key="d23">image_12</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_12__clamping_head">
+  <data key="d0">Clamping Head</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d34">black metal</data>
+  <data key="d23">image_12</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_12__global">
+  <data key="d0">Image: image_12</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_12</data>
+  <data key="d25">/content/working/images/image_12.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a pair of green-handled, spring-loaded cable or hose cutters featuring a black, circular-profile cutting head. A metal locking latch is attached to the base of one handle to secure the tool in a closed position. No text labels or part numbers are visible on the tool.</data>
+</node>
+<node id="image_13__ear_clamp_pliers">
+  <data key="d0">Ear clamp pliers</data>
+  <data key="d1">Tool</data>
+  <data key="d5">fused</data>
+  <data key="d22">Pliers with green handles and a spring mechanism used for crimping ear clamps</data>
+  <data key="d23">image_13</data>
+  <data key="d24">-1</data>
+  <data key="d29">tool_ft1357</data>
+</node>
+<node id="image_13__ear_clamp">
+  <data key="d0">Ear clamp</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Metal band clamp with a crimpable ear</data>
+  <data key="d23">image_13</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_13__global">
+  <data key="d0">Image: image_13</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_13</data>
+  <data key="d25">/content/working/images/image_13.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a pair of specialized ear-clamp pliers (pincers) engaged with a metal ear clamp. The tool features green-handled grips, a central coil spring for automatic opening, and a pivot point connecting the two jaws. The jaws are positioned to crimp the protruding "ear" of the clamp to secure a connection.</data>
+</node>
+<node id="image_14__hose_assembly">
+  <data key="d0">Hose Assembly</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">GH001-12</data>
+  <data key="d23">image_14</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_14__hose_fitting">
+  <data key="d0">Hose Fitting</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d30">Hydraulic Fitting</data>
+  <data key="d23">image_14</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_14__hose_clamp">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d30">Double Wire Clamp</data>
+  <data key="d23">image_14</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_14__global">
+  <data key="d0">Image: image_14</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_14</data>
+  <data key="d25">/content/working/images/image_14.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a close-up of a mechanical assembly featuring two metallic, U-shaped spring clips secured over a black, textured material. These clips are mounted onto a thin, rectangular metal frame or bracket. No text labels, part numbers, or annotations are visible in this crop.</data>
+</node>
+<node id="image_15__hose_fitting">
+  <data key="d0">Hose Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d34">metal</data>
+  <data key="d30">female_swivel</data>
+  <data key="d23">image_15</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_15__rubber_hose">
+  <data key="d0">Rubber Hose</data>
+  <data key="d1">Component</data>
+  <data key="d5">fused</data>
+  <data key="d36">GH</data>
+  <data key="d23">image_15</data>
+  <data key="d24">-1</data>
+  <data key="d29">part_hose_gh001</data>
+</node>
+<node id="image_15__hose_clamp_1">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d37">left</data>
+  <data key="d23">image_15</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_15__hose_clamp_2">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d37">right</data>
+  <data key="d23">image_15</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_15__crimp_sleeve">
+  <data key="d0">Crimp Sleeve</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d35">secures_fitting_to_hose</data>
+  <data key="d23">image_15</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_15__global">
+  <data key="d0">Image: image_15</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_15</data>
+  <data key="d25">/content/working/images/image_15.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a hydraulic or fluid hose assembly featuring a metal female swivel fitting crimped onto the end of a black rubber hose. Two metal ear-style clamps are secured around the hose, positioned behind the crimped fitting. Partial text visible on the hose reads "GH," indicating a specific hose specification or part series.</data>
+</node>
+<node id="image_16__lubricant_bottle">
+  <data key="d0">Lubricant bottle</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d35">apply lubricant</data>
+  <data key="d23">image_16</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_16__metal_fitting">
+  <data key="d0">Metal fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d38">o-rings</data>
+  <data key="d23">image_16</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_16__o_rings">
+  <data key="d0">O-rings</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d31">2</data>
+  <data key="d23">image_16</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_16__global">
+  <data key="d0">Image: image_16</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_16</data>
+  <data key="d25">/content/working/images/image_16.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a squeeze bottle applying lubricant to the O-rings seated on a metal hose barb fitting. The fitting features two distinct grooves for the O-rings and a stepped shoulder, indicating a connection point for a fluid line. No text labels, part numbers, or warnings are visible in this view.</data>
+</node>
+<node id="image_17__scissors">
+  <data key="d0">Scissors</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d22">Cutting tool</data>
+  <data key="d23">image_17</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_17__global">
+  <data key="d0">Image: image_17</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_17</data>
+  <data key="d25">/content/working/images/image_17.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a pair of scissors or a similar cutting tool, depicted as a white silhouette against a black background. It is oriented horizontally with the finger loops on the left and the blades extending to the right. No text, labels, or assembly instructions are visible in this crop.</data>
+</node>
+<node id="image_18__case_assembly">
+  <data key="d0">Case</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Open carrying case</data>
+  <data key="d23">image_18</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_18__global">
+  <data key="d0">Image: image_18</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_18</data>
+  <data key="d25">/content/working/images/image_18.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a partially open, rectangular storage case or container, likely intended for housing tools or components. The object is depicted in a simplified, high-contrast graphical style, showing a hinged lid and a base section. No specific text labels, part numbers, or assembly instructions are visible in this cropped view.</data>
+</node>
+<node id="image_19__part_1">
+  <data key="d0">Valve Body/Fitting</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">1</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_2">
+  <data key="d0">O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">2</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_3">
+  <data key="d0">Spring-loaded Valve Insert</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">3</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_4">
+  <data key="d0">Main Housing</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">4</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_5">
+  <data key="d0">O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">5</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_6">
+  <data key="d0">Washer/Spacer</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">6</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_7">
+  <data key="d0">Nut/Spacer</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">7</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_8">
+  <data key="d0">Coupling Body</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">8</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_9">
+  <data key="d0">O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">9</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_10">
+  <data key="d0">Spring-loaded Valve Insert</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">10</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_11">
+  <data key="d0">O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">11</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__part_12">
+  <data key="d0">Valve Body/Fitting</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">12</data>
+  <data key="d23">image_19</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_19__global">
+  <data key="d0">Image: image_19</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_19</data>
+  <data key="d25">/content/working/images/image_19.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">This image displays an exploded view of a mechanical check valve assembly, consisting of twelve numbered components including threaded housings, springs, O-rings, and internal valve seats. The parts are arranged linearly to illustrate their sequential assembly order, with the central housing (4) and connector (8) serving as the primary body for the internal spring-loaded mechanisms. No text labels or specific part numbers are provided beyond the numerical identifiers.</data>
+</node>
+<node id="image_2__hose_assembly">
+  <data key="d0">Hose Assembly</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Hydraulic or fluid hose with metal fitting</data>
+  <data key="d23">image_2</data>
+  <data key="d24">2</data>
+  <data key="d40">bench</data>
+</node>
+<node id="image_2__hose_fitting">
+  <data key="d0">Hose Fitting</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d30">Female JIC or similar swivel fitting</data>
+  <data key="d23">image_2</data>
+  <data key="d24">1</data>
+  <data key="d40">suitcase</data>
+</node>
+<node id="image_2__hose_segment">
+  <data key="d0">Hose</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">GH001-12 W</data>
+  <data key="d23">image_2</data>
+  <data key="d24">2</data>
+  <data key="d40">bench</data>
+</node>
+<node id="image_2__clamping_mechanism">
+  <data key="d0">Double Clamp</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d30">Oetiker or ear-type clamp</data>
+  <data key="d23">image_2</data>
+  <data key="d24">0</data>
+  <data key="d40">person</data>
+</node>
+<node id="image_2__global">
+  <data key="d0">Image: image_2</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_2</data>
+  <data key="d25">/content/working/images/image_2.jpg</data>
+  <data key="d26">3</data>
+  <data key="d27">The image shows a mechanical pipe coupling assembly consisting of a central metal band secured by a bolt-and-nut tensioning mechanism, flanked by two black, textured rubber or foam gaskets. The components are arranged coaxially, with the metal band serving as the clamping sleeve to compress the gaskets against the pipe surface. No text labels, part numbers, or warning annotations are visible in this crop. | The image shows a close-up, side-profile view of a metallic, hexagonal-shaped cap nut or </data>
+</node>
+<node id="image_20__fitting_assembly">
+  <data key="d0">Fitting Assembly</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Hose barb fitting with threaded end</data>
+  <data key="d23">image_20</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_20__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_20</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_20__dimension_d">
+  <data key="d0">Dimension D</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">D</data>
+  <data key="d23">image_20</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_20__thread_t">
+  <data key="d0">Thread T</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">T</data>
+  <data key="d23">image_20</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_20__hex_nut_1">
+  <data key="d0">Hex Nut</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d41">1</data>
+  <data key="d23">image_20</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_20__global">
+  <data key="d0">Image: image_20</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_20</data>
+  <data key="d25">/content/working/images/image_20.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a technical line drawing of a hose fitting or adapter featuring a threaded end (T) and a barbed end for hose connection. A hexagonal nut (1) is positioned on the body of the fitting, which serves as a reference point for the dimension D, while dimension A represents the total length of the component. The drawing illustrates the axial alignment of the fitting's features.</data>
+</node>
+<node id="image_21__part_5400_s2_4">
+  <data key="d0">5400-S2-4</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">5400-S2-4</data>
+  <data key="d23">image_21</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_21__part_003n4603">
+  <data key="d0">003N4603</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">003N4603</data>
+  <data key="d23">image_21</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_21__step_1">
+  <data key="d0">Step 1</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d5">image</data>
+  <data key="d22">Insert 5400-S2-4 into 003N4603</data>
+  <data key="d23">image_21</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_21__step_2">
+  <data key="d0">Step 2</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d5">image</data>
+  <data key="d22">Secure with 003N4603</data>
+  <data key="d23">image_21</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_21__global">
+  <data key="d0">Image: image_21</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_21</data>
+  <data key="d25">/content/working/images/image_21.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a technical assembly diagram featuring a cylindrical component (part 1) being inserted into a housing (part 2). A circular inset highlights the alignment of a small, cylindrical pin or fastener (part 3) within a corresponding slot. The components are annotated with numerical labels, and a directional arrow indicates the linear motion required for assembly.</data>
+</node>
+<node id="image_22__hose_fitting_assembly">
+  <data key="d0">90-degree hose fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Elbow hose fitting with threaded connection</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__threaded_connection">
+  <data key="d0">T</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">T</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__hex_nut">
+  <data key="d0">Hex nut</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d41">1</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d22">Total length of the hose barb section</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__dimension_d">
+  <data key="d0">Dimension D</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d22">Offset length of the elbow</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__dimension_h">
+  <data key="d0">Dimension H</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d22">Height of the fitting assembly</data>
+  <data key="d23">image_22</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_22__global">
+  <data key="d0">Image: image_22</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_22</data>
+  <data key="d25">/content/working/images/image_22.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">This technical diagram illustrates a 90-degree elbow hydraulic hose fitting featuring a barbed stem for hose insertion and a threaded connection (T) with a hexagonal nut (1) for mounting. The drawing includes dimensional reference lines (A, D, H) indicating the overall length, offset, and height of the assembly. The components are arranged to show the transition from the hose-attachment end to the threaded interface.</data>
+</node>
+<node id="image_23__step_1">
+  <data key="d0">Step 1</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d5">image</data>
+  <data key="d22">Insert the 003N4603 O-ring into the groove of the 5400-S2-4 valve body.</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__o_ring">
+  <data key="d0">O-ring</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">003N4603</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__valve_body">
+  <data key="d0">Valve body</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">5400-S2-4</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__step_2">
+  <data key="d0">Step 2</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d5">image</data>
+  <data key="d22">Install the 5400-S2-5 valve seat into the valve body.</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__valve_seat">
+  <data key="d0">Valve seat</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">5400-S2-5</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__step_3">
+  <data key="d0">Step 3</data>
+  <data key="d1">AssemblyStep</data>
+  <data key="d5">image</data>
+  <data key="d22">Apply 15 Nm torque to the 5400-S2-6 valve nut.</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__valve_nut">
+  <data key="d0">Valve nut</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">5400-S2-6</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__torque_spec">
+  <data key="d0">Torque Specification</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d15">15 Nm</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__warning_1">
+  <data key="d0">Caution</data>
+  <data key="d1">Warning</data>
+  <data key="d5">image</data>
+  <data key="d7">Ensure the O-ring is not pinched during installation.</data>
+  <data key="d23">image_23</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_23__global">
+  <data key="d0">Image: image_23</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_23</data>
+  <data key="d25">/content/working/images/image_23.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a technical assembly diagram featuring a cylindrical component (part 1) being inserted into a housing (part 2). A circular inset highlights the alignment of a small, cylindrical pin or fastener (part 3) being installed into a corresponding hole on the side of the housing. The components are depicted in a clear, exploded-view style with numerical labels indicating the sequence and placement of parts.</data>
+</node>
+<node id="image_24__fitting_assembly">
+  <data key="d0">Fitting Assembly</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">A bulkhead-style hydraulic or pneumatic fitting assembly</data>
+  <data key="d23">image_24</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_24__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d22">Overall length of the fitting assembly</data>
+  <data key="d23">image_24</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_24__global">
+  <data key="d0">Image: image_24</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_24</data>
+  <data key="d25">/content/working/images/image_24.jpg</data>
+  <data key="d26">2</data>
+  <data key="d27">The image shows a cropped, vertical section of a technical assembly diagram depicting a cylindrical component or shaft assembly. It consists of five distinct stacked segments of varying heights, likely representing different diameters or features of a machined part. No text labels, part numbers, or annotations are visible in this specific crop. | The image shows a cropped section of a technical diagram depicting a vertical, rectangular component with rounded corners. It appears to be a side or p</data>
+</node>
+<node id="image_25__global">
+  <data key="d0">Image: image_25</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_25</data>
+  <data key="d25">/content/working/images/image_25.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">[description failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.1-flash-lite\nPlease retry in 45.89710781s.', 'sta</data>
+</node>
+<node id="image_26__fitting_assembly">
+  <data key="d0">Hydraulic Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Threaded hydraulic hose fitting</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__dimension_b">
+  <data key="d0">Dimension B</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">B</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__callout_1">
+  <data key="d0">Wrench Point 1</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d42">1</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__callout_2">
+  <data key="d0">Wrench Point 2</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d42">2</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__callout_3">
+  <data key="d0">Wrench Point 3</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d42">3</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__thread_p">
+  <data key="d0">Thread P</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">P</data>
+  <data key="d23">image_26</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_26__global">
+  <data key="d0">Image: image_26</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_26</data>
+  <data key="d25">/content/working/images/image_26.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays a technical line drawing of a hydraulic hose fitting, featuring a threaded male end (labeled "P") and a crimp-style collar. The assembly includes three distinct hexagonal sections, marked with callouts 1, 2, and 3, which indicate specific wrenching or assembly points. Dimensions are denoted by "A" for overall length and "B" for the diameter of the crimp collar.</data>
+</node>
+<node id="image_27__component_1">
+  <data key="d0">Hex Nut 1</data>
+  <data key="d1">Component</data>
+  <data key="d5">fused</data>
+  <data key="d39">1</data>
+  <data key="d23">image_27</data>
+  <data key="d24">-1</data>
+  <data key="d29">part_jam_nut</data>
+</node>
+<node id="image_27__component_2">
+  <data key="d0">Hex Nut 2</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">2</data>
+  <data key="d23">image_27</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_27__component_3">
+  <data key="d0">Hex Nut 3</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">3</data>
+  <data key="d23">image_27</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_27__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_27</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_27__dimension_b">
+  <data key="d0">Dimension B</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">B</data>
+  <data key="d23">image_27</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_27__global">
+  <data key="d0">Image: image_27</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_27</data>
+  <data key="d25">/content/working/images/image_27.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a close-up of a capital letter "A," likely a reference label or part identifier from an assembly diagram. The character is rendered in a bold, sans-serif typeface with visible pixelation, indicating it is a cropped portion of a digital document or technical manual.</data>
+</node>
+<node id="image_28__threaded_fitting">
+  <data key="d0">Threaded Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">A threaded male fitting with a hexagonal nut section</data>
+  <data key="d23">image_28</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_28__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_28</data>
+  <data key="d24">0</data>
+  <data key="d40">bird</data>
+</node>
+<node id="image_28__dimension_b">
+  <data key="d0">Dimension B</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">B</data>
+  <data key="d23">image_28</data>
+  <data key="d24">1</data>
+  <data key="d40">traffic light</data>
+</node>
+<node id="image_28__callout_1">
+  <data key="d0">Hexagonal Nut Section</data>
+  <data key="d1">Component</data>
+  <data key="d5">fused</data>
+  <data key="d39">1</data>
+  <data key="d23">image_28</data>
+  <data key="d24">-1</data>
+  <data key="d29">part_jam_nut</data>
+</node>
+<node id="image_28__port_p">
+  <data key="d0">Port P</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">P</data>
+  <data key="d23">image_28</data>
+  <data key="d24">2</data>
+  <data key="d40">traffic light</data>
+</node>
+<node id="image_28__global">
+  <data key="d0">Image: image_28</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_28</data>
+  <data key="d25">/content/working/images/image_28.jpg</data>
+  <data key="d26">3</data>
+  <data key="d27">The image shows a portion of a technical diagram featuring a capital letter "A" used as a reference label. It is positioned adjacent to a black dot, likely indicating a specific assembly point or component location within the manual. | The image shows a stylized, bold capital letter "B" rendered in a pixelated, black-and-white graphic style. It appears to be a section header or a label from a technical document, likely used to denote a specific assembly step or component group. No other mechanic</data>
+</node>
+<node id="image_29__fitting_assembly">
+  <data key="d0">Fitting Assembly</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">A mechanical fitting with two hexagonal sections</data>
+  <data key="d23">image_29</data>
+  <data key="d24">3</data>
+  <data key="d40">refrigerator</data>
+</node>
+<node id="image_29__hex_section_1">
+  <data key="d0">Hex Section 1</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d43">1</data>
+  <data key="d23">image_29</data>
+  <data key="d24">1</data>
+  <data key="d40">refrigerator</data>
+</node>
+<node id="image_29__hex_section_2">
+  <data key="d0">Hex Section 2</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d43">2</data>
+  <data key="d23">image_29</data>
+  <data key="d24">0</data>
+  <data key="d40">refrigerator</data>
+</node>
+<node id="image_29__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_29</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_29__dimension_b">
+  <data key="d0">Dimension B</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">B</data>
+  <data key="d23">image_29</data>
+  <data key="d24">2</data>
+  <data key="d40">traffic light</data>
+</node>
+<node id="image_29__global">
+  <data key="d0">Image: image_29</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_29</data>
+  <data key="d25">/content/working/images/image_29.jpg</data>
+  <data key="d26">4</data>
+  <data key="d27">The image shows a vertical, rectangular component with rounded corners, likely representing a structural bracket or a side panel. There are no visible text labels, part numbers, or assembly annotations within this specific crop. The object is depicted in a simple, two-dimensional line-art style typical of technical assembly documentation. | The image shows a vertical, rectangular assembly component divided into five distinct segments of varying heights. The segments are stacked linearly, suggest</data>
+</node>
+<node id="image_3__hose_clamp_1">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">fused</data>
+  <data key="d37">left_most</data>
+  <data key="d23">image_3</data>
+  <data key="d24">-1</data>
+  <data key="d29">step_2</data>
+</node>
+<node id="image_3__hose_clamp_2">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d37">second_from_left</data>
+  <data key="d23">image_3</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_3__hose_clamp_3">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d37">third_from_left</data>
+  <data key="d23">image_3</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_3__hose_clamp_4">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d37">fourth_from_left</data>
+  <data key="d23">image_3</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_3__hose">
+  <data key="d0">Hose</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d39">GH1-12 DN16</data>
+  <data key="d23">image_3</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_3__global">
+  <data key="d0">Image: image_3</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_3</data>
+  <data key="d25">/content/working/images/image_3.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image illustrates the installation of two metal hose clamps onto a black industrial hose. The clamps are shown being moved from the left toward the hose, where two identical clamps are already positioned. The hose features printed text, including "GH...1-12" and "DN16," indicating its specifications.</data>
+</node>
+<node id="image_30__fitting_assembly">
+  <data key="d0">Hydraulic Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Threaded hydraulic adapter</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__dimension_a">
+  <data key="d0">Dimension A</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">A</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__dimension_b">
+  <data key="d0">Dimension B</data>
+  <data key="d1">Specification</data>
+  <data key="d5">image</data>
+  <data key="d39">B</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__callout_1">
+  <data key="d0">Hex Nut 1</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">1</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__callout_3">
+  <data key="d0">Hex Nut 3</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">3</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__callout_p">
+  <data key="d0">Threaded End P</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d39">P</data>
+  <data key="d23">image_30</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_30__global">
+  <data key="d0">Image: image_30</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_30</data>
+  <data key="d25">/content/working/images/image_30.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a handwritten, uppercase letter "A" rendered in a thick, black, pixelated stroke. It appears to be a standalone character or a label rather than a mechanical component or assembly instruction.</data>
+</node>
+<node id="image_4__black_plastic_cutter">
+  <data key="d0">Black plastic pipe cutter</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d34">plastic</data>
+  <data key="d35">cutting</data>
+  <data key="d23">image_4</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_4__metal_end_nipper">
+  <data key="d0">Metal end nipper pliers</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d34">metal</data>
+  <data key="d35">cutting</data>
+  <data key="d23">image_4</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_4__global">
+  <data key="d0">Image: image_4</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_4</data>
+  <data key="d25">/content/working/images/image_4.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays two distinct hand tools used for cutting or trimming. The primary tool in the foreground is a black, plastic-bodied pipe or hose cutter with a pivoting blade mechanism, while the partially visible tool in the background appears to be a metal end-cutting plier or nipper. No text labels, part numbers, or annotations are visible in this cropped view.</data>
+</node>
+<node id="image_5__scissors">
+  <data key="d0">Scissors</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d22">Cutting tool</data>
+  <data key="d23">image_5</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_5__global">
+  <data key="d0">Image: image_5</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_5</data>
+  <data key="d25">/content/working/images/image_5.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a pair of scissors or a similar cutting tool, depicted as a white silhouette against a black background. It is oriented horizontally with the finger loops on the left and the blades extending to the right. No text, labels, or assembly instructions are visible in this crop.</data>
+</node>
+<node id="image_6__document_sheet_2">
+  <data key="d0">Sheet 2 of 6</data>
+  <data key="d1">Document</data>
+  <data key="d5">image</data>
+  <data key="d44">EZ Clip Series</data>
+  <data key="d45">5/06</data>
+  <data key="d42">FF90646</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3052_1012s">
+  <data key="d0">FJ3052-1012S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3052-1012S</data>
+  <data key="d22">Straight Male O-Ring</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3052_1212s">
+  <data key="d0">FJ3052-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3052-1212S</data>
+  <data key="d22">Straight Male O-Ring</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3053_0606s">
+  <data key="d0">FJ3053-0606S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3053-0606S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3053_0808s">
+  <data key="d0">FJ3053-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3053-0808S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3053_0810s">
+  <data key="d0">FJ3053-0810S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3053-0810S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3054_1010s">
+  <data key="d0">FJ3054-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3054-1010S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3054_1012s">
+  <data key="d0">FJ3054-1012S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3054-1012S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3054_1212s">
+  <data key="d0">FJ3054-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3054-1212S</data>
+  <data key="d22">Straight Female O-Ring Pilot, R134a port</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_01_0606s">
+  <data key="d0">FJ3055-01-0606S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-01-0606S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_02_0608s">
+  <data key="d0">FJ3055-02-0608S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-02-0608S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_03_0808s">
+  <data key="d0">FJ3055-03-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-03-0808S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_04_0810s">
+  <data key="d0">FJ3055-04-0810S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-04-0810S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_05_1010s">
+  <data key="d0">FJ3055-05-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-05-1010S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_06_1012s">
+  <data key="d0">FJ3055-06-1012S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-06-1012S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3055_07_1212s">
+  <data key="d0">FJ3055-07-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3055-07-1212S</data>
+  <data key="d22">45a Female O-Ring Pilot</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3056_01_0606s">
+  <data key="d0">FJ3056-01-0606S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3056-01-0606S</data>
+  <data key="d22">45a VRO</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3056_02_0808s">
+  <data key="d0">FJ3056-02-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3056-02-0808S</data>
+  <data key="d22">45a VRO</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3056_03_1010s">
+  <data key="d0">FJ3056-03-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3056-03-1010S</data>
+  <data key="d22">45a VRO</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3056_04_0810s">
+  <data key="d0">FJ3056-04-0810S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3056-04-0810S</data>
+  <data key="d22">45a VRO</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_01_0606s">
+  <data key="d0">FJ3057-01-0606S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-01-0606S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_02_0608s">
+  <data key="d0">FJ3057-02-0608S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-02-0608S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_03_0808s">
+  <data key="d0">FJ3057-03-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-03-0808S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_04_0810s">
+  <data key="d0">FJ3057-04-0810S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-04-0810S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_05_1010s">
+  <data key="d0">FJ3057-05-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-05-1010S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_06_1012s">
+  <data key="d0">FJ3057-06-1012S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-06-1012S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3057_07_1212s">
+  <data key="d0">FJ3057-07-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3057-07-1212S</data>
+  <data key="d22">Straight SAE Swivel</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3058_01_0606s">
+  <data key="d0">FJ3058-01-0606S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3058-01-0606S</data>
+  <data key="d22">45a Splice</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3058_02_0808s">
+  <data key="d0">FJ3058-02-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3058-02-0808S</data>
+  <data key="d22">45a Splice</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3058_03_1010s">
+  <data key="d0">FJ3058-03-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3058-03-1010S</data>
+  <data key="d22">45a Splice</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3058_04_1212s">
+  <data key="d0">FJ3058-04-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3058-04-1212S</data>
+  <data key="d22">45a Splice</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3059_02_0608s">
+  <data key="d0">FJ3059-02-0608S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3059-02-0608S</data>
+  <data key="d22">45a Female Flare</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3059_03_0808s">
+  <data key="d0">FJ3059-03-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3059-03-0808S</data>
+  <data key="d22">45a Female Flare</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3059_04_0810s">
+  <data key="d0">FJ3059-04-0810S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3059-04-0810S</data>
+  <data key="d22">45a Female Flare</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3059_05_1010s">
+  <data key="d0">FJ3059-05-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3059-05-1010S</data>
+  <data key="d22">45a Female Flare</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3059_06_1012s">
+  <data key="d0">FJ3059-06-1012S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3059-06-1012S</data>
+  <data key="d22">45a Female Flare</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3066_060808s">
+  <data key="d0">FJ3066-060808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3066-060808S</data>
+  <data key="d22">3-Hose Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3066_0808s">
+  <data key="d0">FJ3066-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3066-0808S</data>
+  <data key="d22">3-Hose Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3066_1010s">
+  <data key="d0">FJ3066-1010S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3066-1010S</data>
+  <data key="d22">3-Hose Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3066_101212s">
+  <data key="d0">FJ3066-101212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3066-101212S</data>
+  <data key="d22">3-Hose Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3066_1212s">
+  <data key="d0">FJ3066-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3066-1212S</data>
+  <data key="d22">3-Hose Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3067_1212s">
+  <data key="d0">FJ3067-1212S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3067-1212S</data>
+  <data key="d22">O-Ring Tee</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__part_fj3111_01_0808s">
+  <data key="d0">FJ3111-01-0808S</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FJ3111-01-0808S</data>
+  <data key="d22">Male O-Ring, metric (hc)</data>
+  <data key="d23">image_6</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_6__global">
+  <data key="d0">Image: image_6</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_6</data>
+  <data key="d25">/content/working/images/image_6.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">This image is a technical reference sheet for the Eaton "EZ Clip" series, displaying a grid of barcodes and corresponding part numbers for various hydraulic hose fittings. Each entry includes a unique alphanumeric part identifier (e.g., FJ3052-1012S) and a brief text description of the fitting type, such as "Straight Male O-Ring" or "45a Female O-Ring Pilot." The components are organized in a structured, tabular layout to facilitate identification and inventory management.</data>
+</node>
+<node id="image_7__ez_clip_system">
+  <data key="d0">E-Z Clip Air Conditioning Hose Assembly System</data>
+  <data key="d1">System</data>
+  <data key="d5">image</data>
+  <data key="d46">Danfoss</data>
+  <data key="d11">FF12139</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__cage_size_12">
+  <data key="d0">Cage Size 12</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40105-12C</data>
+  <data key="d31">10</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__cage_size_10">
+  <data key="d0">Cage Size 10</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40105-10C</data>
+  <data key="d31">10</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__cage_size_8">
+  <data key="d0">Cage Size 8</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40105-8C</data>
+  <data key="d31">10</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__cage_size_6">
+  <data key="d0">Cage Size 6</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40105-6C</data>
+  <data key="d31">10</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__clip_size_12">
+  <data key="d0">Clip Size 12</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40104-12C</data>
+  <data key="d31">20</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__clip_size_10">
+  <data key="d0">Clip Size 10</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40104-10C</data>
+  <data key="d31">20</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__clip_size_8">
+  <data key="d0">Clip Size 8</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40104-8C</data>
+  <data key="d31">20</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__clip_size_6">
+  <data key="d0">Clip Size 6</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">IF40104-6C</data>
+  <data key="d31">20</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__assembly_plier_tool">
+  <data key="d0">Assembly Plier Tool</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d11">FT1357</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__hose_cutting_tool">
+  <data key="d0">Hose Cutting Tool</data>
+  <data key="d1">Tool</data>
+  <data key="d5">image</data>
+  <data key="d11">FT1356 or T-135</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__blade_replacement">
+  <data key="d0">Blade Replacement</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d11">FT1356-2-1 or T-135B</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__special_note_warning">
+  <data key="d0">Compatibility Warning</data>
+  <data key="d1">Warning</data>
+  <data key="d5">image</data>
+  <data key="d7">E-Z Clip System is designed for assembly exclusively with GH001, GH134 and GH134M veneer hose.</data>
+  <data key="d23">image_7</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_7__global">
+  <data key="d0">Image: image_7</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_7</data>
+  <data key="d25">/content/working/images/image_7.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">This image displays a Danfoss E-Z Clip™ Air Conditioning Hose Assembly System kit (FF12139) housed in a partitioned carrying case. The kit includes various sizes of metal cages and clips (sizes -6, -8, -10, and -12), an assembly plier tool with green handles, and a hose cutting tool. An instructional label inside the lid provides a detailed inventory, part numbers for components and O-rings, and a note specifying that the system is designed exclusively for use with Danfoss GH134 and GH134M serie</data>
+</node>
+<node id="image_8__case_assembly">
+  <data key="d0">Case</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d22">Open carrying case</data>
+  <data key="d23">image_8</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_8__global">
+  <data key="d0">Image: image_8</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_8</data>
+  <data key="d25">/content/working/images/image_8.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image shows a partially open, rectangular storage case or container, likely intended for housing tools or components. The object is depicted in a simplified, high-contrast graphical style, showing a hinged lid and a base section. No specific text labels, part numbers, or assembly instructions are visible in this cropped view.</data>
+</node>
+<node id="image_9__hose_segment">
+  <data key="d0">Aeroquip Hose</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d11">GH134-12</data>
+  <data key="d22">DN19 hose</data>
+  <data key="d23">image_9</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_9__hose_fitting">
+  <data key="d0">Hose Fitting</data>
+  <data key="d1">Component</data>
+  <data key="d5">image</data>
+  <data key="d30">Female JIC/ORB fitting</data>
+  <data key="d23">image_9</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_9__hose_clamp_1">
+  <data key="d0">Hose Clamp</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d47">2</data>
+  <data key="d23">image_9</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_9__retaining_clip">
+  <data key="d0">Retaining Clip</data>
+  <data key="d1">Part</data>
+  <data key="d5">image</data>
+  <data key="d32">-12 248</data>
+  <data key="d23">image_9</data>
+  <data key="d24">-1</data>
+</node>
+<node id="image_9__global">
+  <data key="d0">Image: image_9</data>
+  <data key="d1">ImageEntity</data>
+  <data key="d5">image</data>
+  <data key="d23">image_9</data>
+  <data key="d25">/content/working/images/image_9.jpg</data>
+  <data key="d26">1</data>
+  <data key="d27">The image displays components for a hose assembly, including a segment of Aeroquip GH134-12 hose, a metal hose barb fitting with a threaded swivel nut, two hose clamps, and a metal retaining clip. The components are arranged to show the necessary parts for connecting the hose to the fitting, with the clip and clamps serving as the securing mechanism for the barb interface.</data>
+</node>
+<edge source="doc_ez_clip_5400" target="step_1">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_2">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_3">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_4">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_5">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_6">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="step_7">
+  <data key="d48">HAS_STEP</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="std_sae_j3062">
+  <data key="d48">COMPLIES_WITH</data>
+</edge>
+<edge source="doc_ez_clip_5400" target="std_sae_j2064">
+  <data key="d48">COMPLIES_WITH</data>
+</edge>
+<edge source="step_1" target="step_2">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_2" target="step_3">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_2" target="warning_clip_damage">
+  <data key="d48">HAS_WARNING</data>
+</edge>
+<edge source="step_2" target="image_10__clamp_type">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="step_2" target="image_11__hose_clamps">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.85</data>
+</edge>
+<edge source="step_2" target="image_3__hose_clamp_1">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="step_3" target="step_4">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_4" target="step_5">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_5" target="step_6">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_5" target="part_cage">
+  <data key="d48">USES_PART</data>
+</edge>
+<edge source="step_6" target="step_7">
+  <data key="d48">BEFORE</data>
+</edge>
+<edge source="step_7" target="tool_ft1357">
+  <data key="d48">USES_TOOL</data>
+</edge>
+<edge source="tool_ft1357" target="image_12__ear_clamp_pliers">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.75</data>
+</edge>
+<edge source="tool_ft1357" target="image_13__ear_clamp_pliers">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.85</data>
+</edge>
+<edge source="part_hose_gh001" target="image_15__rubber_hose">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.95</data>
+</edge>
+<edge source="doc_ez_clip_manual" target="proc_assembly">
+  <data key="d48">HAS_PROCEDURE</data>
+</edge>
+<edge source="proc_assembly" target="warning_lubrication">
+  <data key="d48">HAS_WARNING</data>
+</edge>
+<edge source="proc_assembly" target="spec_torque_dash4">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="proc_assembly" target="spec_torque_dash8">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="proc_assembly" target="spec_torque_dash12">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="proc_assembly" target="spec_torque_dash16">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_jam_nut" target="image_27__component_1">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="part_jam_nut" target="image_28__callout_1">
+  <data key="d48">HAS_VISUAL</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.75</data>
+</edge>
+<edge source="part_5400_s2_4" target="spec_coupling_size_1_4">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s5_4" target="spec_coupling_size_1_4">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s2_8" target="spec_coupling_size_1_2">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s2_8" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="part_5400_s5_8" target="spec_coupling_size_1_2">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s5_8" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="part_5400_s2_12" target="spec_coupling_size_3_4">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s2_12" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="part_5400_s5_12" target="spec_coupling_size_3_4">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s5_12" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="part_5400_s2_16" target="spec_coupling_size_1">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s2_16" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="part_5400_s5_16" target="spec_coupling_size_1">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+</edge>
+<edge source="part_5400_s5_16" target="system_5400_series">
+  <data key="d48">PART_OF</data>
+</edge>
+<edge source="system_5400_series" target="standard_sae_jic">
+  <data key="d48">COMPLIES_WITH</data>
+</edge>
+<edge source="image_1__ear_clamp" target="image_1__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_1__ear_clamp" target="warning_adapter_reference">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.266</data>
+</edge>
+<edge source="image_1__clamp_ear" target="image_1__ear_clamp">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_1__clamp_ear" target="image_1__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_1__clamp_ear" target="warning_adapter_reference">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.274</data>
+</edge>
+<edge source="image_1__clamp_band" target="image_1__ear_clamp">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_1__clamp_band" target="image_1__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_1__clamp_band" target="spec_coupling_size_1_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.276</data>
+</edge>
+<edge source="image_1__global" target="part_poppet_valve">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.335</data>
+</edge>
+<edge source="image_10__ear_clamp" target="image_10__clamp_type">
+  <data key="d48">IS_TYPE_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_10__ear_clamp" target="image_10__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_10__ear_clamp" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.335</data>
+</edge>
+<edge source="image_10__clamp_type" target="image_10__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_10__clamp_type" target="step_2">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="image_10__global" target="warning_clip_damage">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.43</data>
+</edge>
+<edge source="image_11__hose_segment" target="image_11__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__hose_segment" target="warning_clip_damage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.471</data>
+</edge>
+<edge source="image_11__hose_fitting" target="image_11__hose_segment">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__hose_fitting" target="image_11__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__hose_fitting" target="warning_clip_damage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.43</data>
+</edge>
+<edge source="image_11__hose_clamps" target="image_11__hose_segment">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__hose_clamps" target="image_11__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__hose_clamps" target="step_2">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.85</data>
+</edge>
+<edge source="image_11__clamp_tool" target="image_11__hose_clamps">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__clamp_tool" target="image_11__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_11__clamp_tool" target="step_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.502</data>
+</edge>
+<edge source="image_11__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.594</data>
+</edge>
+<edge source="image_12__ear_clamp_pliers" target="image_12__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__ear_clamp_pliers" target="tool_ft1357">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.75</data>
+</edge>
+<edge source="image_12__handle_grip" target="image_12__ear_clamp_pliers">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__handle_grip" target="image_12__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__handle_grip" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.465</data>
+</edge>
+<edge source="image_12__locking_latch" target="image_12__ear_clamp_pliers">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__locking_latch" target="image_12__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__locking_latch" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.594</data>
+</edge>
+<edge source="image_12__tension_spring" target="image_12__ear_clamp_pliers">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__tension_spring" target="image_12__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__tension_spring" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.533</data>
+</edge>
+<edge source="image_12__clamping_head" target="image_12__ear_clamp_pliers">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__clamping_head" target="image_12__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_12__clamping_head" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.291</data>
+</edge>
+<edge source="image_12__global" target="tool_ft1357">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.421</data>
+</edge>
+<edge source="image_13__ear_clamp_pliers" target="image_13__ear_clamp">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_13__ear_clamp_pliers" target="image_13__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_13__ear_clamp_pliers" target="tool_ft1357">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.85</data>
+</edge>
+<edge source="image_13__ear_clamp" target="image_13__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_13__ear_clamp" target="part_5400_s5_12">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.266</data>
+</edge>
+<edge source="image_13__global" target="tool_ft1357">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.417</data>
+</edge>
+<edge source="image_14__hose_assembly" target="image_14__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_14__hose_assembly" target="warning_clip_damage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.248</data>
+</edge>
+<edge source="image_14__hose_fitting" target="image_14__hose_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_14__hose_fitting" target="image_14__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_14__hose_fitting" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.421</data>
+</edge>
+<edge source="image_14__hose_clamp" target="image_14__hose_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_14__hose_clamp" target="image_14__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_14__hose_clamp" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.533</data>
+</edge>
+<edge source="image_14__global" target="step_6">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.448</data>
+</edge>
+<edge source="image_15__hose_fitting" target="image_15__crimp_sleeve">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_fitting" target="image_15__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_fitting" target="warning_adapter_reference">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.266</data>
+</edge>
+<edge source="image_15__rubber_hose" target="image_15__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__rubber_hose" target="part_hose_gh001">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.95</data>
+</edge>
+<edge source="image_15__hose_clamp_1" target="image_15__rubber_hose">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_clamp_1" target="image_15__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_clamp_1" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.701</data>
+</edge>
+<edge source="image_15__hose_clamp_2" target="image_15__rubber_hose">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_clamp_2" target="image_15__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__hose_clamp_2" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.652</data>
+</edge>
+<edge source="image_15__crimp_sleeve" target="image_15__rubber_hose">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__crimp_sleeve" target="image_15__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_15__crimp_sleeve" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_15__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.538</data>
+</edge>
+<edge source="image_16__lubricant_bottle" target="image_16__o_rings">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_16__lubricant_bottle" target="image_16__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_16__lubricant_bottle" target="step_6">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.448</data>
+</edge>
+<edge source="image_16__metal_fitting" target="image_16__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_16__metal_fitting" target="step_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.502</data>
+</edge>
+<edge source="image_16__o_rings" target="image_16__metal_fitting">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_16__o_rings" target="image_16__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_16__o_rings" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.483</data>
+</edge>
+<edge source="image_16__global" target="step_3">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.504</data>
+</edge>
+<edge source="image_17__scissors" target="image_17__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_17__scissors" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_17__global" target="tool_ft1357">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.351</data>
+</edge>
+<edge source="image_18__case_assembly" target="image_18__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_18__case_assembly" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_18__global" target="part_cage">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.381</data>
+</edge>
+<edge source="image_19__part_1" target="image_19__part_2">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_1" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_1" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.408</data>
+</edge>
+<edge source="image_19__part_2" target="image_19__part_3">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_2" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_2" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.538</data>
+</edge>
+<edge source="image_19__part_3" target="image_19__part_4">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_3" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_3" target="step_3">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.556</data>
+</edge>
+<edge source="image_19__part_4" target="image_19__part_5">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_4" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_4" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.353</data>
+</edge>
+<edge source="image_19__part_5" target="image_19__part_6">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_5" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_5" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.625</data>
+</edge>
+<edge source="image_19__part_6" target="image_19__part_7">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_6" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_6" target="step_3">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.504</data>
+</edge>
+<edge source="image_19__part_7" target="image_19__part_8">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_7" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_7" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.496</data>
+</edge>
+<edge source="image_19__part_8" target="image_19__part_9">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_8" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_8" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.351</data>
+</edge>
+<edge source="image_19__part_9" target="image_19__part_10">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_9" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_9" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.209</data>
+</edge>
+<edge source="image_19__part_10" target="image_19__part_11">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_10" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_10" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.381</data>
+</edge>
+<edge source="image_19__part_11" target="image_19__part_12">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_11" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_11" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.631</data>
+</edge>
+<edge source="image_19__part_12" target="image_19__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_19__part_12" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.664</data>
+</edge>
+<edge source="image_19__global" target="part_poppet_valve">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.593</data>
+</edge>
+<edge source="image_2__hose_assembly" target="image_2__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__hose_assembly" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.574</data>
+</edge>
+<edge source="image_2__hose_fitting" target="image_2__hose_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__hose_fitting" target="image_2__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__hose_fitting" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.394</data>
+</edge>
+<edge source="image_2__hose_segment" target="image_2__hose_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__hose_segment" target="image_2__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__hose_segment" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.664</data>
+</edge>
+<edge source="image_2__clamping_mechanism" target="image_2__hose_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__clamping_mechanism" target="image_2__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_2__clamping_mechanism" target="part_lock_washer">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.664</data>
+</edge>
+<edge source="image_2__global" target="part_jam_nut">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.397</data>
+</edge>
+<edge source="image_20__fitting_assembly" target="image_20__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__fitting_assembly" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.68</data>
+</edge>
+<edge source="image_20__dimension_a" target="image_20__fitting_assembly">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__dimension_a" target="image_20__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__dimension_a" target="part_5400_s2_4">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.533</data>
+</edge>
+<edge source="image_20__dimension_d" target="image_20__fitting_assembly">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__dimension_d" target="image_20__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__dimension_d" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.664</data>
+</edge>
+<edge source="image_20__thread_t" target="image_20__fitting_assembly">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__thread_t" target="image_20__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__thread_t" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.574</data>
+</edge>
+<edge source="image_20__hex_nut_1" target="image_20__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__hex_nut_1" target="image_20__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_20__hex_nut_1" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.664</data>
+</edge>
+<edge source="image_20__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.453</data>
+</edge>
+<edge source="image_21__part_5400_s2_4" target="image_21__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__part_5400_s2_4" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.631</data>
+</edge>
+<edge source="image_21__part_003n4603" target="image_21__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__part_003n4603" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.593</data>
+</edge>
+<edge source="image_21__step_1" target="image_21__step_2">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__step_1" target="image_21__part_5400_s2_4">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__step_1" target="image_21__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__step_1" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.551</data>
+</edge>
+<edge source="image_21__step_2" target="image_21__part_003n4603">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__step_2" target="image_21__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_21__step_2" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.652</data>
+</edge>
+<edge source="image_21__global" target="step_5">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.479</data>
+</edge>
+<edge source="image_22__hose_fitting_assembly" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__hose_fitting_assembly" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.776</data>
+</edge>
+<edge source="image_22__threaded_connection" target="image_22__hose_fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__threaded_connection" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__threaded_connection" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.302</data>
+</edge>
+<edge source="image_22__hex_nut" target="image_22__hose_fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__hex_nut" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__hex_nut" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.397</data>
+</edge>
+<edge source="image_22__dimension_a" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__dimension_a" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.379</data>
+</edge>
+<edge source="image_22__dimension_d" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__dimension_d" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_22__dimension_h" target="image_22__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_22__dimension_h" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.383</data>
+</edge>
+<edge source="image_22__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.505</data>
+</edge>
+<edge source="image_23__step_1" target="image_23__o_ring">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_1" target="image_23__valve_body">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_1" target="image_23__step_2">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_1" target="image_23__warning_1">
+  <data key="d48">HAS_WARNING</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_1" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_1" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.311</data>
+</edge>
+<edge source="image_23__o_ring" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__o_ring" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.579</data>
+</edge>
+<edge source="image_23__valve_body" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__valve_body" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.453</data>
+</edge>
+<edge source="image_23__step_2" target="image_23__valve_seat">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_2" target="image_23__step_3">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_2" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_2" target="part_5400_s2_4">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.829</data>
+</edge>
+<edge source="image_23__valve_seat" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__valve_seat" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.644</data>
+</edge>
+<edge source="image_23__step_3" target="image_23__valve_nut">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_3" target="image_23__torque_spec">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_3" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__step_3" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.545</data>
+</edge>
+<edge source="image_23__valve_nut" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__valve_nut" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.538</data>
+</edge>
+<edge source="image_23__torque_spec" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__torque_spec" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.479</data>
+</edge>
+<edge source="image_23__warning_1" target="image_23__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_23__warning_1" target="step_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.459</data>
+</edge>
+<edge source="image_23__global" target="step_5">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.442</data>
+</edge>
+<edge source="image_24__fitting_assembly" target="image_24__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_24__fitting_assembly" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.231</data>
+</edge>
+<edge source="image_24__dimension_a" target="image_24__fitting_assembly">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_24__dimension_a" target="image_24__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_24__dimension_a" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.579</data>
+</edge>
+<edge source="image_24__global" target="step_5">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.425</data>
+</edge>
+<edge source="image_25__global" target="part_poppet_valve">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.237</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__dimension_a">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__dimension_b">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__thread_p">
+  <data key="d48">REFERS_TO_SPECIFICATION</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__callout_1">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__callout_2">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__callout_3">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__fitting_assembly" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_26__dimension_a" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__dimension_a" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.383</data>
+</edge>
+<edge source="image_26__dimension_b" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__dimension_b" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.388</data>
+</edge>
+<edge source="image_26__callout_1" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__callout_1" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.505</data>
+</edge>
+<edge source="image_26__callout_2" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__callout_2" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.545</data>
+</edge>
+<edge source="image_26__callout_3" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__callout_3" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.789</data>
+</edge>
+<edge source="image_26__thread_p" target="image_26__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_26__thread_p" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.744</data>
+</edge>
+<edge source="image_26__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.486</data>
+</edge>
+<edge source="image_27__component_1" target="image_27__component_2">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__component_1" target="image_27__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__component_1" target="part_jam_nut">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="image_27__component_2" target="image_27__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__component_2" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.695</data>
+</edge>
+<edge source="image_27__component_3" target="image_27__component_1">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__component_3" target="image_27__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__component_3" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.542</data>
+</edge>
+<edge source="image_27__dimension_a" target="image_27__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__dimension_a" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.763</data>
+</edge>
+<edge source="image_27__dimension_b" target="image_27__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_27__dimension_b" target="spec_torque_dash16">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.683</data>
+</edge>
+<edge source="image_27__global" target="step_3">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.297</data>
+</edge>
+<edge source="image_28__threaded_fitting" target="image_28__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__threaded_fitting" target="warning_adapter_reference">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.557</data>
+</edge>
+<edge source="image_28__dimension_a" target="image_28__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__dimension_a" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.442</data>
+</edge>
+<edge source="image_28__dimension_b" target="image_28__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__dimension_b" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.379</data>
+</edge>
+<edge source="image_28__callout_1" target="image_28__threaded_fitting">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__callout_1" target="image_28__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__callout_1" target="part_jam_nut">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.75</data>
+</edge>
+<edge source="image_28__port_p" target="image_28__threaded_fitting">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__port_p" target="image_28__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_28__port_p" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.425</data>
+</edge>
+<edge source="image_28__global" target="step_3">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.362</data>
+</edge>
+<edge source="image_29__fitting_assembly" target="image_29__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__fitting_assembly" target="part_poppet_valve">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.237</data>
+</edge>
+<edge source="image_29__hex_section_1" target="image_29__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__hex_section_1" target="image_29__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__hex_section_1" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.357</data>
+</edge>
+<edge source="image_29__hex_section_2" target="image_29__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__hex_section_2" target="image_29__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__hex_section_2" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_29__dimension_a" target="image_29__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__dimension_a" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.42</data>
+</edge>
+<edge source="image_29__dimension_b" target="image_29__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_29__dimension_b" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.533</data>
+</edge>
+<edge source="image_29__global" target="step_5">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.421</data>
+</edge>
+<edge source="image_3__hose_clamp_1" target="image_3__hose">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_1" target="image_3__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_1" target="step_2">
+  <data key="d48">ALIGNED_TO</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.65</data>
+</edge>
+<edge source="image_3__hose_clamp_2" target="image_3__hose">
+  <data key="d48">BEFORE</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_2" target="image_3__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_2" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.524</data>
+</edge>
+<edge source="image_3__hose_clamp_3" target="image_3__hose">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_3" target="image_3__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_3" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.314</data>
+</edge>
+<edge source="image_3__hose_clamp_4" target="image_3__hose">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_4" target="image_3__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose_clamp_4" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.486</data>
+</edge>
+<edge source="image_3__hose" target="image_3__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_3__hose" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.551</data>
+</edge>
+<edge source="image_3__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_30__fitting_assembly" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__fitting_assembly" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.54</data>
+</edge>
+<edge source="image_30__dimension_a" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__dimension_a" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.55</data>
+</edge>
+<edge source="image_30__dimension_b" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__dimension_b" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_30__callout_1" target="image_30__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_1" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_1" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.42</data>
+</edge>
+<edge source="image_30__callout_3" target="image_30__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_3" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_3" target="step_3">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.297</data>
+</edge>
+<edge source="image_30__callout_p" target="image_30__fitting_assembly">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_p" target="image_30__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_30__callout_p" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.324</data>
+</edge>
+<edge source="image_30__global" target="step_3">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.268</data>
+</edge>
+<edge source="image_4__black_plastic_cutter" target="image_4__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_4__black_plastic_cutter" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_4__metal_end_nipper" target="image_4__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_4__metal_end_nipper" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.42</data>
+</edge>
+<edge source="image_4__global" target="tool_ft1357">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.451</data>
+</edge>
+<edge source="image_5__scissors" target="image_5__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_5__scissors" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.512</data>
+</edge>
+<edge source="image_5__global" target="tool_ft1357">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.341</data>
+</edge>
+<edge source="image_6__document_sheet_2" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__document_sheet_2" target="part_5400_s5_4">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.225</data>
+</edge>
+<edge source="image_6__part_fj3052_1012s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3052_1012s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3052_1012s" target="step_3">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.362</data>
+</edge>
+<edge source="image_6__part_fj3052_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3052_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3052_1212s" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.379</data>
+</edge>
+<edge source="image_6__part_fj3053_0606s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0606s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0606s" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.358</data>
+</edge>
+<edge source="image_6__part_fj3053_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0808s" target="part_5400_s2_8">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.347</data>
+</edge>
+<edge source="image_6__part_fj3053_0810s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0810s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3053_0810s" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_6__part_fj3054_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1010s" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.42</data>
+</edge>
+<edge source="image_6__part_fj3054_1012s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1012s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1012s" target="step_5">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.421</data>
+</edge>
+<edge source="image_6__part_fj3054_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3054_1212s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_6__part_fj3055_01_0606s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_01_0606s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_01_0606s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_6__part_fj3055_02_0608s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_02_0608s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_02_0608s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_6__part_fj3055_03_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_03_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_03_0808s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_6__part_fj3055_04_0810s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_04_0810s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_04_0810s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.677</data>
+</edge>
+<edge source="image_6__part_fj3055_05_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_05_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_05_1010s" target="step_2">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.572</data>
+</edge>
+<edge source="image_6__part_fj3055_06_1012s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_06_1012s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_06_1012s" target="part_hose_gh001">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.357</data>
+</edge>
+<edge source="image_6__part_fj3055_07_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_07_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3055_07_1212s" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.406</data>
+</edge>
+<edge source="image_6__part_fj3056_01_0606s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_01_0606s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_01_0606s" target="spec_coupling_size_1">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.42</data>
+</edge>
+<edge source="image_6__part_fj3056_02_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_02_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_02_0808s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.551</data>
+</edge>
+<edge source="image_6__part_fj3056_03_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_03_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_03_1010s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.55</data>
+</edge>
+<edge source="image_6__part_fj3056_04_0810s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_04_0810s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3056_04_0810s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.244</data>
+</edge>
+<edge source="image_6__part_fj3057_01_0606s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_01_0606s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_01_0606s" target="step_3">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.268</data>
+</edge>
+<edge source="image_6__part_fj3057_02_0608s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_02_0608s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_02_0608s" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.41</data>
+</edge>
+<edge source="image_6__part_fj3057_03_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_03_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_03_0808s" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.604</data>
+</edge>
+<edge source="image_6__part_fj3057_04_0810s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_04_0810s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_04_0810s" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.451</data>
+</edge>
+<edge source="image_6__part_fj3057_05_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_05_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_05_1010s" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.496</data>
+</edge>
+<edge source="image_6__part_fj3057_06_1012s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_06_1012s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_06_1012s" target="tool_ft1357">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.341</data>
+</edge>
+<edge source="image_6__part_fj3057_07_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_07_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3057_07_1212s" target="std_sae_j3062">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.195</data>
+</edge>
+<edge source="image_6__part_fj3058_01_0606s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_01_0606s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_01_0606s" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.601</data>
+</edge>
+<edge source="image_6__part_fj3058_02_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_02_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_02_0808s" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.616</data>
+</edge>
+<edge source="image_6__part_fj3058_03_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_03_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_03_1010s" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.6</data>
+</edge>
+<edge source="image_6__part_fj3058_04_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_04_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3058_04_1212s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.594</data>
+</edge>
+<edge source="image_6__part_fj3059_02_0608s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_02_0608s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_02_0608s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.589</data>
+</edge>
+<edge source="image_6__part_fj3059_03_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_03_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_03_0808s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.534</data>
+</edge>
+<edge source="image_6__part_fj3059_04_0810s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_04_0810s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_04_0810s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.581</data>
+</edge>
+<edge source="image_6__part_fj3059_05_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_05_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_05_1010s" target="part_5400_s2_12">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.608</data>
+</edge>
+<edge source="image_6__part_fj3059_06_1012s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_06_1012s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3059_06_1012s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.576</data>
+</edge>
+<edge source="image_6__part_fj3066_060808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_060808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_060808s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.573</data>
+</edge>
+<edge source="image_6__part_fj3066_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_0808s" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.569</data>
+</edge>
+<edge source="image_6__part_fj3066_1010s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_1010s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_1010s" target="part_5400_s2_8">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.558</data>
+</edge>
+<edge source="image_6__part_fj3066_101212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_101212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_101212s" target="part_5400_s5_8">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.551</data>
+</edge>
+<edge source="image_6__part_fj3066_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3066_1212s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.586</data>
+</edge>
+<edge source="image_6__part_fj3067_1212s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3067_1212s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3067_1212s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.607</data>
+</edge>
+<edge source="image_6__part_fj3111_01_0808s" target="image_6__document_sheet_2">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3111_01_0808s" target="image_6__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_6__part_fj3111_01_0808s" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.582</data>
+</edge>
+<edge source="image_6__global" target="doc_ez_clip_5400">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.559</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__cage_size_12">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__cage_size_10">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__cage_size_8">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__cage_size_6">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__clip_size_12">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__clip_size_10">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__clip_size_8">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__clip_size_6">
+  <data key="d48">USES_COMPONENT</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__assembly_plier_tool">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__hose_cutting_tool">
+  <data key="d48">USES_TOOL</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__blade_replacement">
+  <data key="d48">USES_PART</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__special_note_warning">
+  <data key="d48">HAS_WARNING</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__ez_clip_system" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.571</data>
+</edge>
+<edge source="image_7__cage_size_12" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__cage_size_12" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.555</data>
+</edge>
+<edge source="image_7__cage_size_10" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__cage_size_10" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.561</data>
+</edge>
+<edge source="image_7__cage_size_8" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__cage_size_8" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.584</data>
+</edge>
+<edge source="image_7__cage_size_6" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__cage_size_6" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.578</data>
+</edge>
+<edge source="image_7__clip_size_12" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__clip_size_12" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.579</data>
+</edge>
+<edge source="image_7__clip_size_10" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__clip_size_10" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.567</data>
+</edge>
+<edge source="image_7__clip_size_8" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__clip_size_8" target="part_jam_nut">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.558</data>
+</edge>
+<edge source="image_7__clip_size_6" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__clip_size_6" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.591</data>
+</edge>
+<edge source="image_7__assembly_plier_tool" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__assembly_plier_tool" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.619</data>
+</edge>
+<edge source="image_7__hose_cutting_tool" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__hose_cutting_tool" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.606</data>
+</edge>
+<edge source="image_7__blade_replacement" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__blade_replacement" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.602</data>
+</edge>
+<edge source="image_7__special_note_warning" target="image_7__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_7__special_note_warning" target="part_cage">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.571</data>
+</edge>
+<edge source="image_7__global" target="doc_ez_clip_manual">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.674</data>
+</edge>
+<edge source="image_8__case_assembly" target="image_8__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_8__case_assembly" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.628</data>
+</edge>
+<edge source="image_8__global" target="part_cage">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.376</data>
+</edge>
+<edge source="image_9__hose_segment" target="image_9__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__hose_segment" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.602</data>
+</edge>
+<edge source="image_9__hose_fitting" target="image_9__hose_segment">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__hose_fitting" target="image_9__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__hose_fitting" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.596</data>
+</edge>
+<edge source="image_9__hose_clamp_1" target="image_9__hose_segment">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__hose_clamp_1" target="image_9__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__hose_clamp_1" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.589</data>
+</edge>
+<edge source="image_9__retaining_clip" target="image_9__hose_fitting">
+  <data key="d48">PART_OF</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__retaining_clip" target="image_9__global">
+  <data key="d48">SHOWN_IN</data>
+  <data key="d49">image</data>
+</edge>
+<edge source="image_9__retaining_clip" target="part_piston_or">
+  <data key="d48">CONTEXTUALISED_BY</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.579</data>
+</edge>
+<edge source="image_9__global" target="step_2">
+  <data key="d48">IMAGE_OF</data>
+  <data key="d49">cross</data>
+  <data key="d50">0.499</data>
+</edge>
+</graph></graphml>
