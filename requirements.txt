@@ -1,0 +1,8 @@
+streamlit
+sentence-transformers
+chromadb
+pdfplumber
+pymupdf
+google-genai
+pandas
+networkx
